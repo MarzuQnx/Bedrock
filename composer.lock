@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fbfa60c3e69106a5b2317d25801856d3",
+    "content-hash": "93bdc8aaa42350fca4a0fdb50d472009",
     "packages": [
         {
             "name": "composer/installers",
@@ -1127,6 +1127,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/font-awesome",
+            "version": "4.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/font-awesome/",
+                "reference": "tags/4.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/font-awesome.4.5.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/font-awesome/"
         },
         {
             "name": "wpackagist-plugin/happy-elementor-addons",
