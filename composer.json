@@ -45,7 +45,8 @@
     "wpackagist-plugin/happy-elementor-addons": "^3.16",
     "wpackagist-plugin/the-plus-addons-for-elementor-page-builder": "^6.2",
     "wpackagist-plugin/bdthemes-element-pack-lite": "^5.10",
-    "wpackagist-plugin/really-simple-ssl": "^9.3"
+    "wpackagist-plugin/really-simple-ssl": "^9.3",
+    "wpackagist-plugin/header-footer-elementor": "^2.2"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",

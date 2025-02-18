@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8d81f2025b6409318db4d99b2ab3f9a8",
+    "content-hash": "fbfa60c3e69106a5b2317d25801856d3",
     "packages": [
         {
             "name": "composer/installers",
@@ -1145,6 +1145,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/happy-elementor-addons/"
+        },
+        {
+            "name": "wpackagist-plugin/header-footer-elementor",
+            "version": "2.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/header-footer-elementor/",
+                "reference": "tags/2.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/header-footer-elementor.2.2.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/header-footer-elementor/"
         },
         {
             "name": "wpackagist-plugin/really-simple-ssl",
