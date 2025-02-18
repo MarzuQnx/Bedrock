@@ -40,7 +40,12 @@
     "roots/wordpress": "6.7.2",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.2.0",
-    "wpackagist-theme/twentytwentyfive": "^1.0"
+    "wpackagist-theme/twentytwentyfive": "^1.0",
+    "wpackagist-plugin/elementor": "^3.27",
+    "wpackagist-plugin/happy-elementor-addons": "^3.16",
+    "wpackagist-plugin/the-plus-addons-for-elementor-page-builder": "^6.2",
+    "wpackagist-plugin/bdthemes-element-pack-lite": "^5.10",
+    "wpackagist-plugin/really-simple-ssl": "^9.3"
   },
   "require-dev": {
     "roave/security-advisories": "dev-latest",
