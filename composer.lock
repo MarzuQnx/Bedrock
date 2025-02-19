@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93bdc8aaa42350fca4a0fdb50d472009",
+    "content-hash": "3d78d8d3e1aa2c9788d074d92825c399",
     "packages": [
         {
             "name": "composer/installers",
@@ -1111,6 +1111,24 @@
             "homepage": "https://wordpress.org/plugins/bdthemes-element-pack-lite/"
         },
         {
+            "name": "wpackagist-plugin/custom-css",
+            "version": "2.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-css/",
+                "reference": "tags/2.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-css.2.4.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-css/"
+        },
+        {
             "name": "wpackagist-plugin/elementor",
             "version": "3.27.5",
             "source": {
@@ -1217,6 +1235,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/the-plus-addons-for-elementor-page-builder/"
+        },
+        {
+            "name": "wpackagist-theme/hello-elementor",
+            "version": "3.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/hello-elementor/",
+                "reference": "3.3.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/hello-elementor.3.3.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/hello-elementor/"
         },
         {
             "name": "wpackagist-theme/twentytwentyfive",

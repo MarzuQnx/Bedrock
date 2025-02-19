@@ -1,0 +1,44 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI:  https://marzuqnx.com
+Description: Child theme for Hello Elementor
+Author: dbanie
+Author URI: https://marzuqnx.com
+Version: 1.0.0
+Template: hello-elementor
+Text Domain: hello-elementor-child 
+*/
+
+/* Enqueue Styles */
+@import url("../hello-elementor/style.css"); /* Import parent theme styles */
+
+/* Add your child theme styles below */
+
+/* Example: Change the primary color */
+body {
+  color: #333; /* Example text color change */
+}
+
+a {
+  color: #007bff; /* Example link color change */
+}
+
+/* Example: Target specific elements */
+.site-title {
+  font-size: 2em; /* Example font size change */
+}
+
+/* Example: Add custom CSS for a specific page template */
+.page-template-page-template-custom-page-php .entry-content {
+  background-color: #f8f9fa; /* Example background color change */
+  padding: 20px;
+}
+
+/* Example: Override parent theme styles */
+.elementor-widget-container {
+  padding: 20px; /* Example padding change for Elementor widgets */
+}
+
+/*  You can add more specific CSS rules here to customize the appearance of your site. */
+/*  Remember to use more specific selectors to override parent theme styles effectively. */
+/*  For example, use the browser's developer tools to inspect elements and find the appropriate CSS selectors. */
