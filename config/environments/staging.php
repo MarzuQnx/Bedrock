@@ -16,3 +16,4 @@ use Roots\WPConfig\Config;
  */
 
 Config::define('DISALLOW_INDEXING', true);
+Config::define('WP_REDIS_DATABASE', env('WP_REDIS_DATABASE'));
